@@ -1,7 +1,6 @@
 import { Component, Input} from '@angular/core';
 import { Country } from '../../interfaces/pais.interface';
 import { PaisService } from '../../services/pais.service';
-import { PorPaisComponent } from '../por-pais/por-pais.component';
 
 @Component({
   selector: 'app-por-capital',
